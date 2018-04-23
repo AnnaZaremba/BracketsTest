@@ -1,0 +1,24 @@
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.poland_flag {
+    background: #E9E8E7;
+    height: 400px;
+    left: -250px;
+    margin-left: 50%;
+    position: absolute;
+    top: 10%;
+    width: 600px;
+}
+
+.poland_flag:after {
+    background-color: #D4213D;
+    content: "";
+    height: 200px;
+    margin-left: -300px;
+    position: absolute;
+    top: 200px;
+    width: 600px;
+}
