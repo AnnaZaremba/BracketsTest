@@ -8,9 +8,9 @@ body {
     height: 400px;
     left: -250px;
     margin-bottom: 25px;
-    margin-left: 50%;
+    margin-left: 470px;
     position: absolute;
-    top: 10%;
+    top: 100px;
     width: 600px;
 }
 
@@ -27,4 +27,48 @@ body {
 .napis {
     margin-top: 450px;
     text-align: center;
+}
+
+.turkey_flag {
+    background: #E30A17;
+    height: 400px;
+    left: -250px;
+    margin-bottom: 100px;
+    margin-top: 480px;
+    margin-left: 470px;
+    position: absolute;
+    top: 100px;
+    width: 600px;
+}
+
+.moon:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #FFF;
+    border-radius: 100px;
+    left: 140px;
+    top: 120px;
+}
+
+.moon2:after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #E30A17;
+    border-radius: 100px;
+    left: 200px;
+    top: 145px;
+}
+
+.star:after {
+    color: #FFF;
+    content: "\2605";
+    font-size: 100px;
+    left: 310px;
+    position: absolute;
+    top: 150px;
+    transform: rotate(-20deg);
 }
